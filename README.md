@@ -18,7 +18,7 @@ A lightweight theme switcher for [Ghostty](https://ghostty.org) with a community
 Run the following command in your terminal:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/UnionPAC/gtheme/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/geoffjamieson/gtheme/main/install.sh | bash
 ```
 
 ---
@@ -142,4 +142,4 @@ A small set of named colors picked from your `.conf` — background, foreground,
 
 Once submitted, the form auto-generates a PR. After it's reviewed and merged, your theme appears on the marketplace and is installable with `gtheme add <your-theme-name>`.
 
-Browse community themes → **[unionpac.github.io/gtheme](https://unionpac.github.io/gtheme)**
+Browse community themes → **[geoffjamieson.github.io/gtheme](https://geoffjamieson.github.io/gtheme)**

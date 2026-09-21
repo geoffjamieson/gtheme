@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # gtheme installer
-# curl -fsSL https://raw.githubusercontent.com/UnionPAC/gtheme/main/install.sh | bash
+# curl -fsSL https://raw.githubusercontent.com/geoffjamieson/gtheme/main/install.sh | bash
 
 set -euo pipefail
 
-REPO="https://raw.githubusercontent.com/UnionPAC/gtheme/main"
+REPO="https://raw.githubusercontent.com/geoffjamieson/gtheme/main"
 THEMES_DIR="$HOME/.config/ghostty/themes"
 BIN_DIR="$HOME/.local/bin"
 GHOSTTY_CONFIG="$HOME/.config/ghostty/config"

@@ -1,7 +1,7 @@
 [
   {
     "name": "synthwave-noir",
-    "author": "UnionPAC",
+    "author": "geoffjamieson",
     "description": "Rain-soaked neon city. Hot pink, electric purple, and neon cyan on deep purple-black.",
     "font": "JetBrainsMono Nerd Font",
     "tags": [
@@ -20,7 +20,7 @@
   },
   {
     "name": "ocean-depths",
-    "author": "UnionPAC",
+    "author": "geoffjamieson",
     "description": "Bioluminescent abyss. Cold blue-grey foreground, glowing teal accents on near-black.",
     "font": "CaskaydiaCove Nerd Font",
     "tags": [
@@ -39,7 +39,7 @@
   },
   {
     "name": "ember-ash",
-    "author": "UnionPAC",
+    "author": "geoffjamieson",
     "description": "Forge heat and smoldering coal. Warm cream foreground, molten amber and fire red on dark charcoal.",
     "font": "FiraCode Nerd Font",
     "tags": [
@@ -58,7 +58,7 @@
   },
   {
     "name": "forest-dark",
-    "author": "UnionPAC",
+    "author": "geoffjamieson",
     "description": "Old growth canopy, moss and rain. Green-tinted foreground and white, vibrant emerald accents on forest black.",
     "font": "Hack Nerd Font",
     "tags": [

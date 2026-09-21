@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # gtheme — Ghostty theme switcher
-# https://github.com/UnionPAC/gtheme
+# https://github.com/geoffjamieson/gtheme
 
 set -euo pipefail
 
@@ -8,9 +8,9 @@ VERSION="1.0.0"
 THEMES_DIR="${GTHEME_DIR:-$HOME/.config/ghostty/themes}"
 ACTIVE="$THEMES_DIR/active.conf"
 GHOSTTY_CONFIG="$HOME/.config/ghostty/config"
-REGISTRY_BASE="https://raw.githubusercontent.com/UnionPAC/gtheme/main/registry"
-BINARY_URL="https://raw.githubusercontent.com/UnionPAC/gtheme/main/bin/gtheme"
-VERSION_URL="https://raw.githubusercontent.com/UnionPAC/gtheme/main/VERSION"
+REGISTRY_BASE="https://raw.githubusercontent.com/geoffjamieson/gtheme/main/registry"
+BINARY_URL="https://raw.githubusercontent.com/geoffjamieson/gtheme/main/bin/gtheme"
+VERSION_URL="https://raw.githubusercontent.com/geoffjamieson/gtheme/main/VERSION"
 UPDATE_CHECK_FILE="$THEMES_DIR/.gtheme_last_check"
 UPDATE_NOTICE_FILE="$THEMES_DIR/.gtheme_updated"
 
@@ -231,7 +231,7 @@ cmd_switch() {
 }
 
 cmd_search() {
-  local url="https://unionpac.github.io/gtheme"
+  local url="https://geoffjamieson.github.io/gtheme"
   echo "Opening community themes in your browser..."
   echo "URL: $url"
   if command -v open &>/dev/null; then
@@ -267,7 +267,7 @@ cmd_add() {
   if ! curl -fsSL "$url" -o "$target" 2>/dev/null; then
     rm -f "$target"
     echo "Error: theme '$name' not found in registry."
-    echo "Browse community themes: https://unionpac.github.io/gtheme"
+    echo "Browse community themes: https://geoffjamieson.github.io/gtheme"
     exit 1
   fi
 
@@ -372,7 +372,7 @@ cmd_uninstall() {
 }
 
 cmd_submit() {
-  local url="https://github.com/UnionPAC/gtheme/issues/new?template=submit-theme.yml"
+  local url="https://github.com/geoffjamieson/gtheme/issues/new?template=submit-theme.yml"
   echo "Opening theme submission form in your browser..."
   echo ""
   echo "Fill out the form and we'll add your theme to the registry."
